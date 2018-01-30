@@ -12,6 +12,11 @@ public class UserMeal {
     protected final LocalDateTime dateTime;
     protected final String description;
     protected final int calories;
+    private Integer id;
+
+    public Integer getId() {
+        return id;
+    }
 
     public LocalDateTime getDateTime() {
         return dateTime;
