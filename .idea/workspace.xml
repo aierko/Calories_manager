@@ -6,33 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f0a2ca6-bef0-4db4-8a3e-a97ad9e33190" name="Default" comment="Add servlet and web">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/log/topjava.log" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/javaproject/caloriesmanager/model/AbstractBaseEntity.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/javaproject/caloriesmanager/model/AbstractNamedEntity.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/javaproject/caloriesmanager/model/Role.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/javaproject/caloriesmanager/repository/InMemoryMealRepositoryImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/javaproject/caloriesmanager/repository/MealRepository.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/mealForm.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/meals.jsp" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Calories_manager_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Calories_manager_war_exploded.xml" />
+    <list default="true" id="8f0a2ca6-bef0-4db4-8a3e-a97ad9e33190" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Calories_manager.iml" afterPath="$PROJECT_DIR$/Calories_manager.iml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaproject/caloriesmanager/model/MealWithExceed.java" afterPath="$PROJECT_DIR$/src/main/java/com/javaproject/caloriesmanager/model/MealWithExceed.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaproject/caloriesmanager/util/DateTimeUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/javaproject/caloriesmanager/util/DateTimeUtil.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaproject/caloriesmanager/util/MealsUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/javaproject/caloriesmanager/util/MealsUtil.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaproject/caloriesmanager/web/MealServlet.java" afterPath="$PROJECT_DIR$/src/main/java/com/javaproject/caloriesmanager/web/MealServlet.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaproject/caloriesmanager/web/UserServlet.java" afterPath="$PROJECT_DIR$/src/main/java/com/javaproject/caloriesmanager/web/UserServlet.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/users.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/users.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -729,7 +704,7 @@
       <workItem from="1517943924894" duration="5865000" />
       <workItem from="1518045526350" duration="591000" />
       <workItem from="1518106113594" duration="576000" />
-      <workItem from="1518112482883" duration="7585000" />
+      <workItem from="1518112482883" duration="7673000" />
     </task>
     <task id="LOCAL-00001" summary="Add model and util">
       <created>1516737925709</created>
@@ -752,11 +727,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517342463260</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add CRUD for meal">
+      <created>1518120254845</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1518120254845</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46381000" />
+    <option name="totallyTimeSpent" value="46469000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -806,7 +788,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add model and util" />
     <MESSAGE value="Add servlet and web" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add servlet and web" />
+    <MESSAGE value="Add CRUD for meal" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add CRUD for meal" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
