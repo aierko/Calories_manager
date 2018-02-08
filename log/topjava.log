@@ -1,0 +1,64 @@
+2018-02-06 21:18:31,145 DEBUG UserServlet [UserServlet.java:18] redirect to user
+2018-02-06 21:18:36,656 DEBUG UserServlet [UserServlet.java:18] redirect to user
+2018-02-06 21:18:39,670 DEBUG UserServlet [UserServlet.java:18] redirect to user
+2018-02-06 21:18:42,676 DEBUG UserServlet [UserServlet.java:18] redirect to user
+2018-02-06 21:59:10,407 DEBUG UserServlet [UserServlet.java:18] redirect to user
+2018-02-06 22:02:03,224 DEBUG UserServlet [UserServlet.java:18] redirect to user
+2018-02-06 22:02:08,391 DEBUG UserServlet [UserServlet.java:18] redirect to user
+2018-02-06 22:04:50,436 DEBUG UserServlet [UserServlet.java:18] redirect to user
+2018-02-06 22:04:55,366 DEBUG UserServlet [UserServlet.java:18] redirect to user
+2018-02-06 22:06:46,435 INFO  MealServlet [MealServlet.java:21] getAll
+2018-02-06 22:06:48,742 DEBUG UserServlet [UserServlet.java:18] redirect to user
+2018-02-06 22:06:52,350 INFO  MealServlet [MealServlet.java:21] getAll
+2018-02-06 22:07:00,294 INFO  MealServlet [MealServlet.java:21] getAll
+2018-02-06 22:07:04,393 INFO  MealServlet [MealServlet.java:21] getAll
+2018-02-06 22:09:11,373 DEBUG UserServlet [UserServlet.java:18] redirect to user
+2018-02-06 22:09:14,094 INFO  MealServlet [MealServlet.java:21] getAll
+2018-02-06 22:09:38,082 INFO  MealServlet [MealServlet.java:21] getAll
+2018-02-06 22:10:23,808 INFO  MealServlet [MealServlet.java:21] getAll
+2018-02-06 22:10:25,327 DEBUG UserServlet [UserServlet.java:18] redirect to user
+2018-02-06 22:10:32,333 INFO  MealServlet [MealServlet.java:21] getAll
+2018-02-06 22:10:35,439 DEBUG UserServlet [UserServlet.java:18] redirect to user
+2018-02-06 22:10:38,210 INFO  MealServlet [MealServlet.java:21] getAll
+2018-02-06 22:12:11,978 DEBUG UserServlet [UserServlet.java:18] redirect to user
+2018-02-06 22:12:14,822 DEBUG UserServlet [UserServlet.java:18] redirect to user
+2018-02-06 22:13:18,993 INFO  MealServlet [MealServlet.java:21] getAll
+2018-02-07 11:52:47,294 DEBUG UserServlet [UserServlet.java:18] redirect to user
+2018-02-07 11:52:49,875 INFO  MealServlet [MealServlet.java:21] getAll
+2018-02-07 16:48:48,556 INFO  MealServlet [MealServlet.java:21] getAll
+2018-02-07 16:48:54,830 DEBUG UserServlet [UserServlet.java:18] redirect to user
+2018-02-08 20:09:03,012 INFO  MealServlet [MealServlet.java:21] getAll
+2018-02-08 20:10:28,786 INFO  MealServlet [MealServlet.java:21] getAll
+2018-02-08 20:10:33,302 DEBUG UserServlet [UserServlet.java:18] redirect to user
+2018-02-08 20:19:50,823 INFO  MealServlet [MealServlet.java:21] getAll
+2018-02-08 20:19:58,239 DEBUG UserServlet [UserServlet.java:18] redirect to user
+2018-02-08 20:20:15,256 INFO  MealServlet [MealServlet.java:21] getAll
+2018-02-08 20:21:09,293 INFO  MealServlet [MealServlet.java:21] getAll
+2018-02-08 20:21:13,661 INFO  MealServlet [MealServlet.java:21] getAll
+2018-02-08 20:25:54,184 INFO  MealServlet [MealServlet.java:21] getAll
+2018-02-08 20:26:02,893 DEBUG UserServlet [UserServlet.java:18] redirect to user
+2018-02-08 20:37:57,725 INFO  MealServlet [MealServlet.java:21] getAll
+2018-02-08 20:41:16,472 INFO  MealServlet [MealServlet.java:21] getAll
+2018-02-08 20:43:11,301 DEBUG UserServlet [UserServlet.java:18] redirect to user
+2018-02-08 20:43:14,013 INFO  MealServlet [MealServlet.java:21] getAll
+2018-02-08 21:21:02,394 INFO  MealServlet [MealServlet.java:21] getAll
+2018-02-08 21:21:06,196 DEBUG UserServlet [UserServlet.java:18] redirect to user
+2018-02-08 21:21:08,927 DEBUG UserServlet [UserServlet.java:18] redirect to user
+2018-02-08 21:21:51,375 INFO  MealServlet [MealServlet.java:21] getAll
+2018-02-08 21:35:06,927 INFO  MealServlet [MealServlet.java:63] getAll
+2018-02-08 21:35:18,328 INFO  MealServlet [MealServlet.java:49] Delete 1
+2018-02-08 21:35:18,349 INFO  MealServlet [MealServlet.java:63] getAll
+2018-02-08 21:37:07,987 INFO  MealServlet [MealServlet.java:37] Update Meal{id=2, dateTime=2017-12-29T13:00, description='Oliv'e and pivasik', calories=1000}
+2018-02-08 21:37:07,997 INFO  MealServlet [MealServlet.java:63] getAll
+2018-02-08 21:37:27,985 INFO  MealServlet [MealServlet.java:37] Update Meal{id=3, dateTime=2017-12-29T20:00, description='Grenki', calories=500}
+2018-02-08 21:37:28,000 INFO  MealServlet [MealServlet.java:63] getAll
+2018-02-08 21:37:45,035 DEBUG UserServlet [UserServlet.java:18] redirect to user
+2018-02-08 21:37:53,176 INFO  MealServlet [MealServlet.java:63] getAll
+2018-02-08 21:38:59,265 INFO  MealServlet [MealServlet.java:37] Update Meal{id=2, dateTime=2017-12-29T13:00, description='Dinner', calories=1000}
+2018-02-08 21:38:59,277 INFO  MealServlet [MealServlet.java:63] getAll
+2018-02-08 21:39:46,920 INFO  MealServlet [MealServlet.java:37] Update Meal{id=3, dateTime=2017-12-29T20:00, description='Breakfast ', calories=500}
+2018-02-08 21:39:46,932 INFO  MealServlet [MealServlet.java:63] getAll
+2018-02-08 21:41:11,721 INFO  MealServlet [MealServlet.java:37] Update Meal{id=4, dateTime=2018-02-08T21:41, description='Завтрак', calories=1000}
+2018-02-08 21:41:11,734 INFO  MealServlet [MealServlet.java:63] getAll
+2018-02-08 21:41:17,397 INFO  MealServlet [MealServlet.java:37] Update Meal{id=3, dateTime=2017-12-29T20:00, description='Breakfast ', calories=500}
+2018-02-08 21:41:17,408 INFO  MealServlet [MealServlet.java:63] getAll
