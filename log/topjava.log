@@ -62,3 +62,4 @@
 2018-02-08 21:41:11,734 INFO  MealServlet [MealServlet.java:63] getAll
 2018-02-08 21:41:17,397 INFO  MealServlet [MealServlet.java:37] Update Meal{id=3, dateTime=2017-12-29T20:00, description='Breakfast ', calories=500}
 2018-02-08 21:41:17,408 INFO  MealServlet [MealServlet.java:63] getAll
+2018-02-12 22:47:39,774 INFO  MealServlet [MealServlet.java:63] getAll
