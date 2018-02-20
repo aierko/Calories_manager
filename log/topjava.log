@@ -63,3 +63,53 @@
 2018-02-08 21:41:17,397 INFO  MealServlet [MealServlet.java:37] Update Meal{id=3, dateTime=2017-12-29T20:00, description='Breakfast ', calories=500}
 2018-02-08 21:41:17,408 INFO  MealServlet [MealServlet.java:63] getAll
 2018-02-12 22:47:39,774 INFO  MealServlet [MealServlet.java:63] getAll
+2018-02-15 16:00:28,984 INFO  MealServlet [MealServlet.java:63] getAll
+2018-02-15 16:04:11,579 INFO  MealServlet [MealServlet.java:37] Create Meal{id=null, dateTime=2018-02-11T06:00, description='breackfast', calories=1000}
+2018-02-15 16:04:11,599 INFO  MealServlet [MealServlet.java:63] getAll
+2018-02-15 16:04:52,632 INFO  MealServlet [MealServlet.java:37] Update Meal{id=6, dateTime=2018-10-02T08:00, description='Br', calories=510}
+2018-02-15 16:04:52,647 INFO  MealServlet [MealServlet.java:63] getAll
+2018-02-15 16:05:12,189 INFO  MealServlet [MealServlet.java:37] Update Meal{id=6, dateTime=2018-10-02T08:00, description='breackfast', calories=700}
+2018-02-15 16:05:12,202 INFO  MealServlet [MealServlet.java:63] getAll
+2018-02-15 16:05:37,605 INFO  MealServlet [MealServlet.java:37] Update Meal{id=5, dateTime=2017-12-30T13:00, description='dinner', calories=500}
+2018-02-15 16:05:37,617 INFO  MealServlet [MealServlet.java:63] getAll
+2018-02-15 16:06:29,279 INFO  MealServlet [MealServlet.java:37] Update Meal{id=2, dateTime=2017-12-29T13:00, description='lunch', calories=1000}
+2018-02-15 16:06:29,297 INFO  MealServlet [MealServlet.java:63] getAll
+2018-02-15 16:07:57,037 INFO  MealServlet [MealServlet.java:37] Update Meal{id=3, dateTime=2017-12-29T21:05, description='cocktail', calories=500}
+2018-02-15 16:07:57,050 INFO  MealServlet [MealServlet.java:63] getAll
+2018-02-15 16:09:06,840 INFO  MealServlet [MealServlet.java:37] Update Meal{id=4, dateTime=2018-02-01T08:00, description='breackfast', calories=1000}
+2018-02-15 16:09:06,853 INFO  MealServlet [MealServlet.java:63] getAll
+2018-02-15 16:10:02,437 INFO  MealServlet [MealServlet.java:37] Update Meal{id=1, dateTime=2018-12-12T13:00, description='lunch', calories=500}
+2018-02-15 16:10:02,449 INFO  MealServlet [MealServlet.java:63] getAll
+2018-02-15 16:10:27,390 INFO  MealServlet [MealServlet.java:37] Update Meal{id=3, dateTime=2018-02-11T21:05, description='cocktail', calories=500}
+2018-02-15 16:10:27,402 INFO  MealServlet [MealServlet.java:63] getAll
+2018-02-15 16:11:11,405 INFO  MealServlet [MealServlet.java:37] Update Meal{id=5, dateTime=2018-02-05T20:00, description='dinner', calories=600}
+2018-02-15 16:11:11,418 INFO  MealServlet [MealServlet.java:63] getAll
+2018-02-15 20:44:02,222 INFO  ClassPathXmlApplicationContext [AbstractApplicationContext.java:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@475530b9: startup date [Thu Feb 15 20:44:02 EET 2018]; root of context hierarchy
+2018-02-15 20:44:02,769 INFO  XmlBeanDefinitionReader [XmlBeanDefinitionReader.java:316] Loading XML bean definitions from class path resource [spring/spring-app.xml]
+2018-02-15 20:44:04,040 INFO  MockUserRepositoryImpl [MockUserRepositoryImpl.java:39] getAll
+2018-02-15 20:44:04,041 INFO  ClassPathXmlApplicationContext [AbstractApplicationContext.java:989] Closing org.springframework.context.support.ClassPathXmlApplicationContext@475530b9: startup date [Thu Feb 15 20:44:02 EET 2018]; root of context hierarchy
+2018-02-15 21:12:39,465 INFO  ClassPathXmlApplicationContext [AbstractApplicationContext.java:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@475530b9: startup date [Thu Feb 15 21:12:39 EET 2018]; root of context hierarchy
+2018-02-15 21:12:39,696 INFO  XmlBeanDefinitionReader [XmlBeanDefinitionReader.java:316] Loading XML bean definitions from class path resource [spring/spring-app.xml]
+2018-02-15 21:12:40,356 INFO  MockUserRepositoryImpl [MockUserRepositoryImpl.java:39] getAll
+2018-02-15 21:12:40,359 INFO  MockUserRepositoryImpl [MockUserRepositoryImpl.java:15] save User{email='null', password='null', registred_time=Thu Feb 15 21:12:40 EET 2018, roles=null, calories_per_day=0, enabled_or=true} 
+2018-02-15 21:12:40,363 INFO  ClassPathXmlApplicationContext [AbstractApplicationContext.java:989] Closing org.springframework.context.support.ClassPathXmlApplicationContext@475530b9: startup date [Thu Feb 15 21:12:39 EET 2018]; root of context hierarchy
+2018-02-15 21:56:08,384 INFO  ClassPathXmlApplicationContext [AbstractApplicationContext.java:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@475530b9: startup date [Thu Feb 15 21:56:08 EET 2018]; root of context hierarchy
+2018-02-15 21:56:08,836 INFO  XmlBeanDefinitionReader [XmlBeanDefinitionReader.java:316] Loading XML bean definitions from class path resource [spring/spring-app.xml]
+2018-02-15 21:57:21,661 INFO  MealServlet [MealServlet.java:63] getAll
+2018-02-15 21:57:23,327 INFO  MealServlet [MealServlet.java:63] getAll
+2018-02-15 21:57:30,317 INFO  MealServlet [MealServlet.java:63] getAll
+2018-02-15 21:57:38,093 DEBUG UserServlet [UserServlet.java:18] redirect to user
+2018-02-15 21:57:42,566 INFO  MealServlet [MealServlet.java:63] getAll
+2018-02-15 21:58:07,341 INFO  ClassPathXmlApplicationContext [AbstractApplicationContext.java:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@475530b9: startup date [Thu Feb 15 21:58:07 EET 2018]; root of context hierarchy
+2018-02-15 21:58:07,539 INFO  XmlBeanDefinitionReader [XmlBeanDefinitionReader.java:316] Loading XML bean definitions from class path resource [spring/spring-app.xml]
+2018-02-15 21:58:23,892 INFO  MealServlet [MealServlet.java:63] getAll
+2018-02-15 21:59:34,040 INFO  MealServlet [MealServlet.java:63] getAll
+2018-02-15 21:59:37,072 DEBUG UserServlet [UserServlet.java:18] redirect to user
+2018-02-15 22:02:13,269 INFO  MealServlet [MealServlet.java:63] getAll
+2018-02-15 22:02:14,330 INFO  MealServlet [MealServlet.java:63] getAll
+2018-02-15 22:02:24,892 DEBUG UserServlet [UserServlet.java:18] redirect to user
+2018-02-15 22:02:28,428 INFO  MealServlet [MealServlet.java:63] getAll
+2018-02-20 21:43:29,457 DEBUG UserServlet [UserServlet.java:18] redirect to user
+2018-02-20 21:43:34,543 DEBUG UserServlet [UserServlet.java:18] redirect to user
+2018-02-20 21:43:37,476 INFO  MealServlet [MealServlet.java:64] getAll
+2018-02-20 22:01:37,361 INFO  MealServlet [MealServlet.java:64] getAll

@@ -1,4 +1,4 @@
-package com.javaproject.caloriesmanager.model;
+package com.javaproject.caloriesmanager.to;
 
 import java.time.LocalDateTime;
 

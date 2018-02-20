@@ -1,7 +1,8 @@
 package com.javaproject.caloriesmanager.web;
 
+import com.javaproject.caloriesmanager.AutorizedUser;
 import com.javaproject.caloriesmanager.model.Meal;
-import com.javaproject.caloriesmanager.repository.InMemoryMealRepositoryImpl;
+import com.javaproject.caloriesmanager.repository.mock.InMemoryMealRepositoryImpl;
 import com.javaproject.caloriesmanager.repository.MealRepository;
 import com.javaproject.caloriesmanager.util.MealsUtil;
 import org.slf4j.Logger;
@@ -35,7 +36,7 @@ public class MealServlet extends HttpServlet {
                 Integer.valueOf(request.getParameter("calories")));
 
         log.info(meal.isNew() ? "Create {}" : "Update {}", meal);
-        repository.save(meal); //делаем сейв
+        repository.save(meal, AutorizedUser.id()); //делаем сейв
         response.sendRedirect("meals");
     }
     private static final Logger log = getLogger(MealServlet.class);
@@ -47,14 +48,14 @@ public class MealServlet extends HttpServlet {
             case "delete":
                 int id = getId(request); //берем айдишник из запроса через метод
                 log.info("Delete {}", id);
-                repository.delete(id); //удаляем из репозитория
+                repository.delete(id,AutorizedUser.id()); //удаляем из репозитория
                 response.sendRedirect("meals"); //и делаем редирект
                 break;
             case "create":
             case "update":
                 final Meal meal = "create".equals(action) ?
                         new Meal(LocalDateTime.now().truncatedTo(ChronoUnit.MINUTES), "", 1000) :
-                        repository.get(getId(request));
+                        repository.get(getId(request),AutorizedUser.id());
                 request.setAttribute("meal", meal);
                 request.getRequestDispatcher("/mealForm.jsp").forward(request, response); //отправляемся на mealForm где у нас будет форма для редактирования
                 break;
@@ -62,7 +63,7 @@ public class MealServlet extends HttpServlet {
             default:
                 log.info("getAll");
                 request.setAttribute("meals",
-                        MealsUtil.getWithExceeded(repository.getAll(), MealsUtil.DEFAULT_CALORIES_PER_DAY));
+                        MealsUtil.getWithExceeded(repository.getAll(AutorizedUser.id()), MealsUtil.DEFAULT_CALORIES_PER_DAY));
                 request.getRequestDispatcher("/meals.jsp").forward(request, response);
                 break;
         }

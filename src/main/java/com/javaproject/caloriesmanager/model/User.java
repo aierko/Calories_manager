@@ -12,6 +12,10 @@ public class User extends AbstractNamedEntity {
     private int calories_per_day;
     private boolean enabled_or = true;
 
+    public User(Integer id, String user_name, String email, String password, Role roleAdmin) {
+        super(id,user_name);
+    }
+
     public boolean isEnabled_or() {
         return enabled_or;
     }

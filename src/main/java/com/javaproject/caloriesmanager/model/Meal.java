@@ -8,7 +8,7 @@ import java.time.LocalTime;
 /**
  * Created by User on 23.01.2018.
  */
-public class Meal {
+public class Meal extends AbstractBaseEntity{
     private final LocalDateTime dateTime; //время принятия пищи; время без тайм зоны
     private final String description;    //  описание время приема пищи
     private final int calories; // калории
@@ -20,7 +20,7 @@ public class Meal {
     }
 
     public Meal(Integer id, LocalDateTime dateTime, String description, int calories) {
-        this.id = id;
+        super(id);
         this.dateTime = dateTime;
         this.description = description;
         this.calories = calories;

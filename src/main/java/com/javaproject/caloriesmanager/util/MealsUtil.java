@@ -1,7 +1,7 @@
 package com.javaproject.caloriesmanager.util;
 
 import com.javaproject.caloriesmanager.model.Meal;
-import com.javaproject.caloriesmanager.model.MealWithExceed;
+import com.javaproject.caloriesmanager.to.MealWithExceed;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;

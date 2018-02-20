@@ -1,9 +1,10 @@
 package com.javaproject.caloriesmanager.web.User;
 
 import com.javaproject.caloriesmanager.model.User;
+import org.springframework.stereotype.Controller;
 
 import java.util.List;
-
+@Controller
 public class AdminRestController extends AbstractUserCntroller{
     @Override
     public List<User> getAll() {
