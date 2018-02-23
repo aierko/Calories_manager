@@ -5,7 +5,10 @@ import com.javaproject.caloriesmanager.model.Meal;
 import com.javaproject.caloriesmanager.repository.mock.InMemoryMealRepositoryImpl;
 import com.javaproject.caloriesmanager.repository.MealRepository;
 import com.javaproject.caloriesmanager.util.MealsUtil;
+import com.javaproject.caloriesmanager.web.meal.MealRestController;
 import org.slf4j.Logger;
+import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;
@@ -20,23 +23,35 @@ import java.util.Objects;
 import static org.slf4j.LoggerFactory.getLogger;
 
 public class MealServlet extends HttpServlet {
-    private MealRepository repository;
+    private ConfigurableApplicationContext springContext;
+    private MealRestController mealRestController;
     public void init(ServletConfig config) throws ServletException {
         super.init(config);
-        repository = new InMemoryMealRepositoryImpl();
+         springContext = new ClassPathXmlApplicationContext("spring/spring-app.xml");
+         mealRestController = springContext.getBean(MealRestController.class);
+    }
+    public void destroy(){
+        springContext.close();
+        super.destroy();
     }
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.setCharacterEncoding("UTF-8"); //работаем по UTF-8
         String id = request.getParameter("id"); //берем запросы по айди
 
-        Meal meal = new Meal(id.isEmpty() ? null : Integer.valueOf(id),
+        Meal meal = new Meal(
                 LocalDateTime.parse(request.getParameter("dateTime")),
                 request.getParameter("description"),
                 Integer.valueOf(request.getParameter("calories")));
 
-        log.info(meal.isNew() ? "Create {}" : "Update {}", meal);
-        repository.save(meal, AutorizedUser.id()); //делаем сейв
+        if (request.getParameter("id").isEmpty()) {
+            mealRestController.create(meal);
+        } else {
+            mealRestController.update(meal, getId(request));
+        }
+
+//        log.info(meal.isNew() ? "Create {}" : "Update {}", meal);
+//        repository.save(meal, AutorizedUser.id()); //делаем сейв
         response.sendRedirect("meals");
     }
     private static final Logger log = getLogger(MealServlet.class);
@@ -47,23 +62,22 @@ public class MealServlet extends HttpServlet {
         switch (action == null ? "all" : action) { //если экшена нету даем весь список
             case "delete":
                 int id = getId(request); //берем айдишник из запроса через метод
-                log.info("Delete {}", id);
-                repository.delete(id,AutorizedUser.id()); //удаляем из репозитория
+                mealRestController.delete(id);
+               // repository.delete(id,AutorizedUser.id()); //удаляем из репозитория
                 response.sendRedirect("meals"); //и делаем редирект
                 break;
             case "create":
             case "update":
                 final Meal meal = "create".equals(action) ?
                         new Meal(LocalDateTime.now().truncatedTo(ChronoUnit.MINUTES), "", 1000) :
-                        repository.get(getId(request),AutorizedUser.id());
+                        mealRestController.get(getId(request));
                 request.setAttribute("meal", meal);
                 request.getRequestDispatcher("/mealForm.jsp").forward(request, response); //отправляемся на mealForm где у нас будет форма для редактирования
                 break;
             case "all":
             default:
-                log.info("getAll");
                 request.setAttribute("meals",
-                        MealsUtil.getWithExceeded(repository.getAll(AutorizedUser.id()), MealsUtil.DEFAULT_CALORIES_PER_DAY));
+                       mealRestController.getAll());
                 request.getRequestDispatcher("/meals.jsp").forward(request, response);
                 break;
         }

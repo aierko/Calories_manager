@@ -4,6 +4,7 @@ import com.javaproject.caloriesmanager.model.Meal;
 import com.javaproject.caloriesmanager.repository.MealRepository;
 import com.javaproject.caloriesmanager.util.DateTimeUtil;
 import com.javaproject.caloriesmanager.util.MealsUtil;
+import org.springframework.stereotype.Repository;
 
 import java.time.LocalDateTime;
 import java.time.Month;
@@ -18,7 +19,7 @@ import java.util.stream.Stream;
 
 import static com.javaproject.caloriesmanager.repository.mock.InMemoryUserRepositoryImpl.ADMIN_ID;
 import static com.javaproject.caloriesmanager.repository.mock.InMemoryUserRepositoryImpl.USER_ID;
-
+@Repository
 public class InMemoryMealRepositoryImpl implements MealRepository {
 
     private Map<Integer, Map<Integer, Meal>> repository = new ConcurrentHashMap<>();

@@ -23,7 +23,4 @@ public interface MealService {
     Meal update(Meal meal, int userId) throws NFE;
 
     Meal create(Meal meal, int userId);
-
-
-
 }

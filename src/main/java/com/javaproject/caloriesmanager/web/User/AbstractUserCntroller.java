@@ -32,6 +32,7 @@ public abstract class AbstractUserCntroller {
         return service.create(user);
     }
 
+
     public void delete(int id) {
         log.info("delete {}", id);
         service.delete(id);
