@@ -230,3 +230,17 @@
 2018-02-24 11:36:20,722 INFO  MealRestController [MealRestController.java:60] get all for user 1
 2018-02-24 11:36:25,924 DEBUG UserServlet [UserServlet.java:18] redirect to user
 2018-02-24 11:37:46,186 INFO  ClassPathXmlApplicationContext [AbstractApplicationContext.java:989] Closing org.springframework.context.support.ClassPathXmlApplicationContext@78caa7e1: startup date [Sat Feb 24 11:36:15 EET 2018]; root of context hierarchy
+2018-02-24 11:45:05,872 INFO  ClassPathXmlApplicationContext [AbstractApplicationContext.java:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@475530b9: startup date [Sat Feb 24 11:45:05 EET 2018]; root of context hierarchy
+2018-02-24 11:45:06,036 INFO  XmlBeanDefinitionReader [XmlBeanDefinitionReader.java:316] Loading XML bean definitions from class path resource [spring/spring-app.xml]
+2018-02-24 11:45:07,231 INFO  AdminRestController [AbstractUserCntroller.java:30] create User{email='null', password='null', registred_time=Sat Feb 24 11:45:07 EET 2018, roles=null, calories_per_day=0, enabled_or=true}
+2018-02-24 11:45:07,239 INFO  MealRestController [MealRestController.java:65] get between Date 2017-12-30 - 2018-02-23 time 12:20 - 12:30 for user 1 
+2018-02-24 11:45:07,305 INFO  ClassPathXmlApplicationContext [AbstractApplicationContext.java:989] Closing org.springframework.context.support.ClassPathXmlApplicationContext@475530b9: startup date [Sat Feb 24 11:45:05 EET 2018]; root of context hierarchy
+2018-02-24 11:46:09,184 INFO  ClassPathXmlApplicationContext [AbstractApplicationContext.java:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@475530b9: startup date [Sat Feb 24 11:46:09 EET 2018]; root of context hierarchy
+2018-02-24 11:46:09,338 INFO  XmlBeanDefinitionReader [XmlBeanDefinitionReader.java:316] Loading XML bean definitions from class path resource [spring/spring-app.xml]
+2018-02-24 11:46:10,429 INFO  AdminRestController [AbstractUserCntroller.java:30] create User{email='null', password='null', registred_time=Sat Feb 24 11:46:10 EET 2018, roles=null, calories_per_day=0, enabled_or=true}
+2018-02-24 11:46:10,436 INFO  MealRestController [MealRestController.java:65] get between Date 2017-12-30 - 2018-02-23 time 12:20 - 12:30 for user 1 
+2018-02-24 11:46:10,525 INFO  ClassPathXmlApplicationContext [AbstractApplicationContext.java:989] Closing org.springframework.context.support.ClassPathXmlApplicationContext@475530b9: startup date [Sat Feb 24 11:46:09 EET 2018]; root of context hierarchy
+2018-02-24 11:46:36,624 INFO  ClassPathXmlApplicationContext [AbstractApplicationContext.java:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@24758482: startup date [Sat Feb 24 11:46:36 EET 2018]; root of context hierarchy
+2018-02-24 11:46:36,916 INFO  XmlBeanDefinitionReader [XmlBeanDefinitionReader.java:316] Loading XML bean definitions from class path resource [spring/spring-app.xml]
+2018-02-24 11:46:47,264 DEBUG UserServlet [UserServlet.java:18] redirect to user
+2018-02-24 11:46:51,650 INFO  MealRestController [MealRestController.java:60] get all for user 1
