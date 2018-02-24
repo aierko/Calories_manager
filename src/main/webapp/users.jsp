@@ -12,8 +12,7 @@
     <link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-<a href=" index.html">HOME SWEET HOME</a>
-<div id="test"></div>
+<div id="css">style</div>
 
 
 
