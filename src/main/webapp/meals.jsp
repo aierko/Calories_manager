@@ -6,15 +6,7 @@
 <html>
 <head>
     <title>Meal list</title>
-    <style>
-        .normal {
-            color: green;
-        }
-
-        .exceeded {
-            color: blue;
-        }
-    </style>
+    <link href="style_css/style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <section>
@@ -22,7 +14,7 @@
     <h2>Meals</h2>
     <a href="meals?action=create">Add meal </a>
     <hr/>
-    <table border="1" cellpadding="8" cellspacing="0" >
+    <table border="1" cellpadding="8" cellspacing="0">
         <thead>
         <tr>
             <th>Date</th>
@@ -43,7 +35,7 @@
 
                 <td>${meal.description}</td>
                 <td>${meal.calories}</td>
-                <td><a href="meals?action=update&id=${meal.id}">Update</a> </td>
+                <td><a href="meals?action=update&id=${meal.id}">Update</a></td>
                 <td><a href="meals?action=delete&id=${meal.id}">Delete</a></td>
             </tr>
         </c:forEach>

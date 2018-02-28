@@ -1,5 +1,7 @@
 package com.javaproject.caloriesmanager.util;
 
+import org.springframework.util.StringUtils;
+
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
@@ -23,4 +25,12 @@ public class DateTimeUtil {
     }
     public static final LocalDate maxDate = LocalDate.of(3000,1,1);
     public static final LocalDate minDate = LocalDate.of(1,1,1);
+    public static LocalDate parseLocalDate(String s){
+        return StringUtils.isEmpty(s)?null : LocalDate.parse(s);
+    }
+    public static LocalTime parseLocalTime(String d){
+        return StringUtils.isEmpty(d)?null : LocalTime.parse(d);
+    }
+
 }
+

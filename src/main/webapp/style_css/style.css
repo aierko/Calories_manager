@@ -1,6 +1,30 @@
-#style{
+body{
  background-image: url("images/3.jpg");
-    background: darkgreen;
+    background: cornflowerblue;
     color: blueviolet;
     padding: 15px;
+    border: 3px solid lightcoral;
+    opacity: 3
+}
+.normal {
+   color: green;
+}
+
+.exceeded {
+   color: #19ff30;
+}
+d1{
+   background: no-repeat scroll;
+   margin: 8px 0;
+   padding: 0;
+}
+dt{
+display: inline-block;
+   width: 170px;
+
+   }
+dd{
+   display: inline-block;
+   margin-left: 8px;
+   vertical-align: top;
 }

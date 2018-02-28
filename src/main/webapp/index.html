@@ -3,15 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Title Calories Manager</title>
-    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <link href= "style_css/style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
            <h3>project <a href="https://github.com/aierko/Calories_manager" title="_blank"></a> </h3>
            <hr>
-           <ul>
-               <li><a href="users">User List</a></li>
-               <li><a href="meals"> Meals List</a></li>
-               <div id="Meals List">CSS3</div>
-           </ul>
+           <form method="post" action="users">
+               <b>meals of&nbsp;</b>
+               <select name="userId">
+                   <option value="1">User</option>
+                   <option value="2">Admin</option>
+               </select>
+               <button type="submit">Select</button>
+
+
+           </form>
 </body>
 </html>

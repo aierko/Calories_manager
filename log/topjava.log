@@ -244,3 +244,44 @@
 2018-02-24 11:46:36,916 INFO  XmlBeanDefinitionReader [XmlBeanDefinitionReader.java:316] Loading XML bean definitions from class path resource [spring/spring-app.xml]
 2018-02-24 11:46:47,264 DEBUG UserServlet [UserServlet.java:18] redirect to user
 2018-02-24 11:46:51,650 INFO  MealRestController [MealRestController.java:60] get all for user 1
+2018-02-24 12:50:57,370 INFO  ClassPathXmlApplicationContext [AbstractApplicationContext.java:989] Closing org.springframework.context.support.ClassPathXmlApplicationContext@24758482: startup date [Sat Feb 24 11:46:36 EET 2018]; root of context hierarchy
+2018-02-24 12:52:31,191 INFO  ClassPathXmlApplicationContext [AbstractApplicationContext.java:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@32705464: startup date [Sat Feb 24 12:52:31 EET 2018]; root of context hierarchy
+2018-02-24 12:52:31,470 INFO  XmlBeanDefinitionReader [XmlBeanDefinitionReader.java:316] Loading XML bean definitions from class path resource [spring/spring-app.xml]
+2018-02-24 12:52:36,968 INFO  MealRestController [MealRestController.java:60] get all for user 1
+2018-02-24 12:52:42,109 DEBUG UserServlet [UserServlet.java:18] redirect to user
+2018-02-27 15:32:06,822 INFO  ClassPathXmlApplicationContext [AbstractApplicationContext.java:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1c15d759: startup date [Tue Feb 27 15:32:06 EET 2018]; root of context hierarchy
+2018-02-27 15:32:07,158 INFO  XmlBeanDefinitionReader [XmlBeanDefinitionReader.java:316] Loading XML bean definitions from class path resource [spring/spring-app.xml]
+2018-02-27 15:32:14,894 INFO  MealRestController [MealRestController.java:60] get all for user 1
+2018-02-27 15:32:19,788 DEBUG UserServlet [UserServlet.java:18] redirect to user
+2018-02-27 16:20:15,530 INFO  MealRestController [MealRestController.java:60] get all for user 1
+2018-02-27 20:02:12,279 INFO  MealRestController [MealRestController.java:60] get all for user 1
+2018-02-27 20:07:49,269 INFO  ClassPathXmlApplicationContext [AbstractApplicationContext.java:989] Closing org.springframework.context.support.ClassPathXmlApplicationContext@1c15d759: startup date [Tue Feb 27 15:32:06 EET 2018]; root of context hierarchy
+2018-02-27 20:08:58,783 INFO  ClassPathXmlApplicationContext [AbstractApplicationContext.java:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@697f556: startup date [Tue Feb 27 20:08:58 EET 2018]; root of context hierarchy
+2018-02-27 20:08:59,232 INFO  XmlBeanDefinitionReader [XmlBeanDefinitionReader.java:316] Loading XML bean definitions from class path resource [spring/spring-app.xml]
+2018-02-27 20:09:11,154 INFO  MealRestController [MealRestController.java:60] get all for user 1
+2018-02-27 20:09:17,894 DEBUG UserServlet [UserServlet.java:18] redirect to user
+2018-02-27 20:09:22,946 DEBUG UserServlet [UserServlet.java:18] redirect to user
+2018-02-27 20:09:25,629 INFO  MealRestController [MealRestController.java:60] get all for user 1
+2018-02-27 20:10:16,099 INFO  ClassPathXmlApplicationContext [AbstractApplicationContext.java:989] Closing org.springframework.context.support.ClassPathXmlApplicationContext@697f556: startup date [Tue Feb 27 20:08:58 EET 2018]; root of context hierarchy
+2018-02-27 20:11:03,757 INFO  ClassPathXmlApplicationContext [AbstractApplicationContext.java:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1890713e: startup date [Tue Feb 27 20:11:03 EET 2018]; root of context hierarchy
+2018-02-27 20:11:04,316 INFO  XmlBeanDefinitionReader [XmlBeanDefinitionReader.java:316] Loading XML bean definitions from class path resource [spring/spring-app.xml]
+2018-02-27 20:11:16,989 INFO  MealRestController [MealRestController.java:60] get all for user 1
+2018-02-27 20:11:23,707 INFO  MealRestController [MealRestController.java:60] get all for user 1
+2018-02-27 20:11:27,647 DEBUG UserServlet [UserServlet.java:18] redirect to user
+2018-02-27 20:59:30,256 INFO  ClassPathXmlApplicationContext [AbstractApplicationContext.java:989] Closing org.springframework.context.support.ClassPathXmlApplicationContext@1890713e: startup date [Tue Feb 27 20:11:03 EET 2018]; root of context hierarchy
+2018-02-27 21:00:19,953 INFO  ClassPathXmlApplicationContext [AbstractApplicationContext.java:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@45faf8fa: startup date [Tue Feb 27 21:00:19 EET 2018]; root of context hierarchy
+2018-02-27 21:00:20,193 INFO  XmlBeanDefinitionReader [XmlBeanDefinitionReader.java:316] Loading XML bean definitions from class path resource [spring/spring-app.xml]
+2018-02-27 21:00:34,496 INFO  MealRestController [MealRestController.java:60] get all for user 1
+2018-02-27 21:00:44,269 INFO  MealRestController [MealRestController.java:60] get all for user 2
+2018-02-27 21:12:23,877 INFO  ClassPathXmlApplicationContext [AbstractApplicationContext.java:989] Closing org.springframework.context.support.ClassPathXmlApplicationContext@45faf8fa: startup date [Tue Feb 27 21:00:19 EET 2018]; root of context hierarchy
+2018-02-27 21:13:28,241 INFO  ClassPathXmlApplicationContext [AbstractApplicationContext.java:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5693df4a: startup date [Tue Feb 27 21:13:28 EET 2018]; root of context hierarchy
+2018-02-27 21:13:28,635 INFO  XmlBeanDefinitionReader [XmlBeanDefinitionReader.java:316] Loading XML bean definitions from class path resource [spring/spring-app.xml]
+2018-02-27 21:13:30,036 INFO  InMemoryMealRepositoryImpl [InMemoryMealRepositoryImpl.java:44] ++ postConstructor
+2018-02-27 22:03:20,398 INFO  ClassPathXmlApplicationContext [AbstractApplicationContext.java:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1d29cf23: startup date [Tue Feb 27 22:03:20 EET 2018]; root of context hierarchy
+2018-02-27 22:03:20,653 INFO  XmlBeanDefinitionReader [XmlBeanDefinitionReader.java:316] Loading XML bean definitions from class path resource [spring/spring-app.xml]
+2018-02-27 22:03:22,190 INFO  InMemoryMealRepositoryImpl [InMemoryMealRepositoryImpl.java:44] ++ postConstructor
+2018-02-27 22:03:22,510 INFO  AdminRestController [AbstractUserCntroller.java:37] delete 10
+2018-02-27 22:03:22,537 INFO  AdminRestController [AbstractUserCntroller.java:37] delete 1
+2018-02-27 22:03:22,538 INFO  AdminRestController [AbstractUserCntroller.java:20] getAll
+2018-02-27 22:03:22,681 INFO  ClassPathXmlApplicationContext [AbstractApplicationContext.java:989] Closing org.springframework.context.support.ClassPathXmlApplicationContext@1d29cf23: startup date [Tue Feb 27 22:03:20 EET 2018]; root of context hierarchy
+2018-02-27 22:03:22,684 INFO  InMemoryMealRepositoryImpl [InMemoryMealRepositoryImpl.java:48] ++ preDestroy

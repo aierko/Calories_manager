@@ -7,9 +7,11 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
+
 <head>
+
     <title>Title</title>
-    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <link href= "style_css/style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="css">style</div>

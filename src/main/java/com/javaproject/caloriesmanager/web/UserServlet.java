@@ -1,5 +1,6 @@
 package com.javaproject.caloriesmanager.web;
 
+import com.javaproject.caloriesmanager.AutorizedUser;
 import org.slf4j.Logger;
 
 import javax.servlet.ServletException;
@@ -18,4 +19,12 @@ public class UserServlet extends HttpServlet {
         log.debug("redirect to user");
         response.sendRedirect("users.jsp");
     }
+
+    @Override
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        int user_id = Integer.parseInt(req.getParameter("userId"));
+        AutorizedUser.setId(user_id);
+        resp.sendRedirect("meals");
+    }
+
 }
