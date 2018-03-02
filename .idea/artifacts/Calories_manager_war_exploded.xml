@@ -19,6 +19,9 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-core:5.0.3.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.0.3.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.0.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.postgresql:postgresql:42.1.4" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:5.0.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:5.0.3.RELEASE" />
         </element>
       </element>
       <element id="directory" name="META-INF">

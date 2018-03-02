@@ -2,7 +2,6 @@ package com.javaproject.caloriesmanager.web;
 
 import com.javaproject.caloriesmanager.AutorizedUser;
 import com.javaproject.caloriesmanager.model.Meal;
-import com.javaproject.caloriesmanager.repository.mock.InMemoryMealRepositoryImpl;
 import com.javaproject.caloriesmanager.repository.MealRepository;
 import com.javaproject.caloriesmanager.util.MealsUtil;
 import com.javaproject.caloriesmanager.web.meal.MealRestController;

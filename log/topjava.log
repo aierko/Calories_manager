@@ -285,3 +285,195 @@
 2018-02-27 22:03:22,538 INFO  AdminRestController [AbstractUserCntroller.java:20] getAll
 2018-02-27 22:03:22,681 INFO  ClassPathXmlApplicationContext [AbstractApplicationContext.java:989] Closing org.springframework.context.support.ClassPathXmlApplicationContext@1d29cf23: startup date [Tue Feb 27 22:03:20 EET 2018]; root of context hierarchy
 2018-02-27 22:03:22,684 INFO  InMemoryMealRepositoryImpl [InMemoryMealRepositoryImpl.java:48] ++ preDestroy
+2018-02-28 12:20:48,425 INFO  ClassPathXmlApplicationContext [AbstractApplicationContext.java:989] Closing org.springframework.context.support.ClassPathXmlApplicationContext@5693df4a: startup date [Tue Feb 27 21:13:28 EET 2018]; root of context hierarchy
+2018-02-28 12:20:48,460 INFO  InMemoryMealRepositoryImpl [InMemoryMealRepositoryImpl.java:48] ++ preDestroy
+2018-02-28 12:21:30,770 INFO  ClassPathXmlApplicationContext [AbstractApplicationContext.java:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@59fe4f43: startup date [Wed Feb 28 12:21:30 EET 2018]; root of context hierarchy
+2018-02-28 12:21:31,148 INFO  XmlBeanDefinitionReader [XmlBeanDefinitionReader.java:316] Loading XML bean definitions from class path resource [spring/spring-app.xml]
+2018-02-28 12:21:32,096 WARN  ClassPathXmlApplicationContext [AbstractApplicationContext.java:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mealServiceImpl' defined in file [D:\javaproject\Calories_manager\target\Calories Manager\WEB-INF\classes\com\javaproject\caloriesmanager\service\MealServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.javaproject.caloriesmanager.repository.MealRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2018-02-28 12:21:36,557 INFO  ClassPathXmlApplicationContext [AbstractApplicationContext.java:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@67074a4a: startup date [Wed Feb 28 12:21:36 EET 2018]; root of context hierarchy
+2018-02-28 12:21:36,559 INFO  XmlBeanDefinitionReader [XmlBeanDefinitionReader.java:316] Loading XML bean definitions from class path resource [spring/spring-app.xml]
+2018-02-28 12:21:36,723 WARN  ClassPathXmlApplicationContext [AbstractApplicationContext.java:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mealServiceImpl' defined in file [D:\javaproject\Calories_manager\target\Calories Manager\WEB-INF\classes\com\javaproject\caloriesmanager\service\MealServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.javaproject.caloriesmanager.repository.MealRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2018-02-28 15:53:00,714 INFO  ClassPathXmlApplicationContext [AbstractApplicationContext.java:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@45acb1ff: startup date [Wed Feb 28 15:53:00 EET 2018]; root of context hierarchy
+2018-02-28 15:53:00,935 INFO  XmlBeanDefinitionReader [XmlBeanDefinitionReader.java:316] Loading XML bean definitions from class path resource [spring/spring-app.xml]
+2018-02-28 15:53:01,867 WARN  ClassPathXmlApplicationContext [AbstractApplicationContext.java:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mealServiceImpl' defined in file [D:\javaproject\Calories_manager\target\Calories Manager\WEB-INF\classes\com\javaproject\caloriesmanager\service\MealServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.javaproject.caloriesmanager.repository.MealRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2018-02-28 15:53:43,043 INFO  ClassPathXmlApplicationContext [AbstractApplicationContext.java:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2aebae9a: startup date [Wed Feb 28 15:53:43 EET 2018]; root of context hierarchy
+2018-02-28 15:53:43,045 INFO  XmlBeanDefinitionReader [XmlBeanDefinitionReader.java:316] Loading XML bean definitions from class path resource [spring/spring-app.xml]
+2018-02-28 15:53:43,258 WARN  ClassPathXmlApplicationContext [AbstractApplicationContext.java:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mealServiceImpl' defined in file [D:\javaproject\Calories_manager\target\Calories Manager\WEB-INF\classes\com\javaproject\caloriesmanager\service\MealServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.javaproject.caloriesmanager.repository.MealRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2018-02-28 15:53:43,602 INFO  ClassPathXmlApplicationContext [AbstractApplicationContext.java:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6e0839ff: startup date [Wed Feb 28 15:53:43 EET 2018]; root of context hierarchy
+2018-02-28 15:53:43,603 INFO  XmlBeanDefinitionReader [XmlBeanDefinitionReader.java:316] Loading XML bean definitions from class path resource [spring/spring-app.xml]
+2018-02-28 15:53:43,740 WARN  ClassPathXmlApplicationContext [AbstractApplicationContext.java:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mealServiceImpl' defined in file [D:\javaproject\Calories_manager\target\Calories Manager\WEB-INF\classes\com\javaproject\caloriesmanager\service\MealServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.javaproject.caloriesmanager.repository.MealRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2018-03-01 20:06:03,184 INFO  ClassPathXmlApplicationContext [AbstractApplicationContext.java:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@67b4ec3: startup date [Thu Mar 01 20:06:03 EET 2018]; root of context hierarchy
+2018-03-01 20:06:03,497 INFO  XmlBeanDefinitionReader [XmlBeanDefinitionReader.java:316] Loading XML bean definitions from class path resource [spring/spring-app.xml]
+2018-03-01 20:06:04,738 WARN  ClassPathXmlApplicationContext [AbstractApplicationContext.java:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mealServiceImpl' defined in file [D:\javaproject\Calories_manager\target\Calories Manager\WEB-INF\classes\com\javaproject\caloriesmanager\service\MealServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.javaproject.caloriesmanager.repository.MealRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2018-03-01 20:06:23,025 INFO  ClassPathXmlApplicationContext [AbstractApplicationContext.java:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7e6803a: startup date [Thu Mar 01 20:06:23 EET 2018]; root of context hierarchy
+2018-03-01 20:06:23,027 INFO  XmlBeanDefinitionReader [XmlBeanDefinitionReader.java:316] Loading XML bean definitions from class path resource [spring/spring-app.xml]
+2018-03-01 20:06:23,325 WARN  ClassPathXmlApplicationContext [AbstractApplicationContext.java:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mealServiceImpl' defined in file [D:\javaproject\Calories_manager\target\Calories Manager\WEB-INF\classes\com\javaproject\caloriesmanager\service\MealServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.javaproject.caloriesmanager.repository.MealRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2018-03-01 20:06:24,169 INFO  ClassPathXmlApplicationContext [AbstractApplicationContext.java:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@23b4f0ac: startup date [Thu Mar 01 20:06:24 EET 2018]; root of context hierarchy
+2018-03-01 20:06:24,170 INFO  XmlBeanDefinitionReader [XmlBeanDefinitionReader.java:316] Loading XML bean definitions from class path resource [spring/spring-app.xml]
+2018-03-01 20:06:24,395 WARN  ClassPathXmlApplicationContext [AbstractApplicationContext.java:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mealServiceImpl' defined in file [D:\javaproject\Calories_manager\target\Calories Manager\WEB-INF\classes\com\javaproject\caloriesmanager\service\MealServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.javaproject.caloriesmanager.repository.MealRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2018-03-01 20:06:54,032 INFO  ClassPathXmlApplicationContext [AbstractApplicationContext.java:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5e8a4f: startup date [Thu Mar 01 20:06:54 EET 2018]; root of context hierarchy
+2018-03-01 20:06:54,033 INFO  XmlBeanDefinitionReader [XmlBeanDefinitionReader.java:316] Loading XML bean definitions from class path resource [spring/spring-app.xml]
+2018-03-01 20:06:54,296 WARN  ClassPathXmlApplicationContext [AbstractApplicationContext.java:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mealServiceImpl' defined in file [D:\javaproject\Calories_manager\target\Calories Manager\WEB-INF\classes\com\javaproject\caloriesmanager\service\MealServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.javaproject.caloriesmanager.repository.MealRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2018-03-01 20:06:54,764 INFO  ClassPathXmlApplicationContext [AbstractApplicationContext.java:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@10b17a6e: startup date [Thu Mar 01 20:06:54 EET 2018]; root of context hierarchy
+2018-03-01 20:06:54,765 INFO  XmlBeanDefinitionReader [XmlBeanDefinitionReader.java:316] Loading XML bean definitions from class path resource [spring/spring-app.xml]
+2018-03-01 20:06:54,933 WARN  ClassPathXmlApplicationContext [AbstractApplicationContext.java:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mealServiceImpl' defined in file [D:\javaproject\Calories_manager\target\Calories Manager\WEB-INF\classes\com\javaproject\caloriesmanager\service\MealServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.javaproject.caloriesmanager.repository.MealRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2018-03-01 20:39:46,195 INFO  DefaultTestContextBootstrapper [AbstractTestContextBootstrapper.java:248] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-03-01 20:39:46,255 INFO  DefaultTestContextBootstrapper [AbstractTestContextBootstrapper.java:177] Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3b94d659, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@24b1d79b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@68ceda24]
+2018-03-01 20:39:46,638 INFO  XmlBeanDefinitionReader [XmlBeanDefinitionReader.java:316] Loading XML bean definitions from class path resource [spring/spring-app.xml]
+2018-03-01 20:39:47,601 INFO  GenericApplicationContext [AbstractApplicationContext.java:589] Refreshing org.springframework.context.support.GenericApplicationContext@7fad8c79: startup date [Thu Mar 01 20:39:47 EET 2018]; root of context hierarchy
+2018-03-01 20:39:48,148 INFO  InMemoryMealRepositoryImpl [InMemoryMealRepositoryImpl.java:44] ++ postConstructor
+2018-03-01 20:39:48,732 INFO  AdminRestController [AbstractUserCntroller.java:37] delete 10
+2018-03-01 20:39:48,777 INFO  AdminRestController [AbstractUserCntroller.java:37] delete 1
+2018-03-01 20:39:48,778 INFO  AdminRestController [AbstractUserCntroller.java:20] getAll
+2018-03-01 20:39:48,866 INFO  GenericApplicationContext [AbstractApplicationContext.java:989] Closing org.springframework.context.support.GenericApplicationContext@7fad8c79: startup date [Thu Mar 01 20:39:47 EET 2018]; root of context hierarchy
+2018-03-01 20:39:48,873 INFO  InMemoryMealRepositoryImpl [InMemoryMealRepositoryImpl.java:48] ++ preDestroy
+2018-03-01 21:08:40,821 INFO  DefaultTestContextBootstrapper [AbstractTestContextBootstrapper.java:248] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-03-01 21:08:40,858 INFO  DefaultTestContextBootstrapper [AbstractTestContextBootstrapper.java:177] Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@68ceda24, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@281e3708, org.springframework.test.context.support.DirtiesContextTestExecutionListener@35a50a4c]
+2018-03-01 21:08:41,120 INFO  XmlBeanDefinitionReader [XmlBeanDefinitionReader.java:316] Loading XML bean definitions from class path resource [spring/spring-app.xml]
+2018-03-01 21:08:42,192 INFO  GenericApplicationContext [AbstractApplicationContext.java:589] Refreshing org.springframework.context.support.GenericApplicationContext@76329302: startup date [Thu Mar 01 21:08:42 EET 2018]; root of context hierarchy
+2018-03-01 21:08:43,862 INFO  InMemoryMealRepositoryImpl [InMemoryMealRepositoryImpl.java:44] ++ postConstructor
+2018-03-01 21:08:44,354 INFO  AdminRestController [AbstractUserCntroller.java:37] delete 10
+2018-03-01 21:08:44,364 INFO  AdminRestController [AbstractUserCntroller.java:37] delete 1
+2018-03-01 21:08:44,365 INFO  AdminRestController [AbstractUserCntroller.java:20] getAll
+2018-03-01 21:08:44,421 INFO  GenericApplicationContext [AbstractApplicationContext.java:989] Closing org.springframework.context.support.GenericApplicationContext@76329302: startup date [Thu Mar 01 21:08:42 EET 2018]; root of context hierarchy
+2018-03-01 21:08:44,425 INFO  InMemoryMealRepositoryImpl [InMemoryMealRepositoryImpl.java:48] ++ preDestroy
+2018-03-02 09:42:11,709 INFO  DefaultTestContextBootstrapper [AbstractTestContextBootstrapper.java:248] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-03-02 09:42:11,922 INFO  DefaultTestContextBootstrapper [AbstractTestContextBootstrapper.java:177] Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@57f23557, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3d0f8e03, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6366ebe0, org.springframework.test.context.transaction.TransactionalTestExecutionListener@44f75083, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2698dc7]
+2018-03-02 09:42:12,240 INFO  XmlBeanDefinitionReader [XmlBeanDefinitionReader.java:316] Loading XML bean definitions from class path resource [spring/spring-app.xml]
+2018-03-02 09:42:13,271 INFO  GenericApplicationContext [AbstractApplicationContext.java:589] Refreshing org.springframework.context.support.GenericApplicationContext@23a5fd2: startup date [Fri Mar 02 09:42:13 EET 2018]; root of context hierarchy
+2018-03-02 09:42:13,838 WARN  GenericApplicationContext [AbstractApplicationContext.java:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jdbcUserRepositoryImpl' defined in file [D:\javaproject\Calories_manager\target\classes\com\javaproject\caloriesmanager\repository\jdbc\JdbcUserRepositoryImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'javax.sql.DataSource' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2018-03-02 09:42:13,854 ERROR TestContextManager [TestContextManager.java:246] Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3d0f8e03] to prepare test instance [com.javaproject.caloriesmanager.web.InMemoryAdminRestControllerSpringTest@3cc1435c]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:125)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:107)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:242)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jdbcUserRepositoryImpl' defined in file [D:\javaproject\Calories_manager\target\classes\com\javaproject\caloriesmanager\repository\jdbc\JdbcUserRepositoryImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'javax.sql.DataSource' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:729)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:192)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1270)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1127)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:128)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:107)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:243)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117)
+	... 32 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'javax.sql.DataSource' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1507)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1104)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1065)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:815)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:721)
+	... 50 common frames omitted
+2018-03-02 09:42:13,885 INFO  XmlBeanDefinitionReader [XmlBeanDefinitionReader.java:316] Loading XML bean definitions from class path resource [spring/spring-app.xml]
+2018-03-02 09:42:14,084 INFO  GenericApplicationContext [AbstractApplicationContext.java:589] Refreshing org.springframework.context.support.GenericApplicationContext@76f2bbc1: startup date [Fri Mar 02 09:42:14 EET 2018]; root of context hierarchy
+2018-03-02 09:42:14,161 WARN  GenericApplicationContext [AbstractApplicationContext.java:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jdbcUserRepositoryImpl' defined in file [D:\javaproject\Calories_manager\target\classes\com\javaproject\caloriesmanager\repository\jdbc\JdbcUserRepositoryImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'javax.sql.DataSource' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2018-03-02 09:42:14,164 ERROR TestContextManager [TestContextManager.java:246] Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3d0f8e03] to prepare test instance [com.javaproject.caloriesmanager.web.InMemoryAdminRestControllerSpringTest@696da30b]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:125)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:107)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:242)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jdbcUserRepositoryImpl' defined in file [D:\javaproject\Calories_manager\target\classes\com\javaproject\caloriesmanager\repository\jdbc\JdbcUserRepositoryImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'javax.sql.DataSource' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:729)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:192)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1270)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1127)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:128)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:107)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:243)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117)
+	... 32 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'javax.sql.DataSource' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1507)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1104)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1065)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:815)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:721)
+	... 50 common frames omitted
+2018-03-02 09:42:14,286 INFO  ClassPathXmlApplicationContext [AbstractApplicationContext.java:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@51dcb805: startup date [Fri Mar 02 09:42:14 EET 2018]; root of context hierarchy
+2018-03-02 09:42:14,287 INFO  XmlBeanDefinitionReader [XmlBeanDefinitionReader.java:316] Loading XML bean definitions from class path resource [spring/spring-app.xml]
+2018-03-02 09:42:15,028 WARN  ClassPathXmlApplicationContext [AbstractApplicationContext.java:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jdbcUserRepositoryImpl' defined in file [D:\javaproject\Calories_manager\target\classes\com\javaproject\caloriesmanager\repository\jdbc\JdbcUserRepositoryImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'javax.sql.DataSource' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2018-03-02 09:42:50,859 INFO  ClassPathXmlApplicationContext [AbstractApplicationContext.java:589] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@74837cc7: startup date [Fri Mar 02 09:42:50 EET 2018]; root of context hierarchy
+2018-03-02 09:42:51,052 INFO  XmlBeanDefinitionReader [XmlBeanDefinitionReader.java:316] Loading XML bean definitions from class path resource [spring/spring-app.xml]
+2018-03-02 09:42:52,442 WARN  ClassPathXmlApplicationContext [AbstractApplicationContext.java:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jdbcUserRepositoryImpl' defined in file [D:\javaproject\Calories_manager\target\Calories Manager\WEB-INF\classes\com\javaproject\caloriesmanager\repository\jdbc\JdbcUserRepositoryImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'javax.sql.DataSource' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
