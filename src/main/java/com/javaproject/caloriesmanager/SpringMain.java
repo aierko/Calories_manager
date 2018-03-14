@@ -2,7 +2,6 @@ package com.javaproject.caloriesmanager;
 
 import com.javaproject.caloriesmanager.model.Role;
 import com.javaproject.caloriesmanager.model.User;
-import com.javaproject.caloriesmanager.repository.UserRepository;
 import com.javaproject.caloriesmanager.to.MealWithExceed;
 import com.javaproject.caloriesmanager.web.User.AdminRestController;
 import com.javaproject.caloriesmanager.web.meal.MealRestController;

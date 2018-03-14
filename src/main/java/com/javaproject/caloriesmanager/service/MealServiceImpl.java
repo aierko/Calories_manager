@@ -3,7 +3,6 @@ package com.javaproject.caloriesmanager.service;
 import com.javaproject.caloriesmanager.model.Meal;
 import com.javaproject.caloriesmanager.repository.MealRepository;
 import com.javaproject.caloriesmanager.util.ValidationUtil;
-import com.javaproject.caloriesmanager.util.exception.NFE;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

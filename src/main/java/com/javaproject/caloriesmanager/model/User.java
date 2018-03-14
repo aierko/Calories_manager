@@ -3,15 +3,21 @@ package com.javaproject.caloriesmanager.model;
 import java.util.Date;
 import java.util.Set;
 
+import static com.javaproject.caloriesmanager.util.MealsUtil.DEFAULT_CALORIES_PER_DAY;
+
 public class User extends AbstractNamedEntity {
 
     private String email;
     private String password;
     private Date registred_time = new Date();
     private Set<Role> roles;
-    private int calories_per_day;
+    private int calories_per_day = DEFAULT_CALORIES_PER_DAY;
     private boolean enabled_or = true;
+    public User(){}
 
+    public User(User u) {
+        this(u.getId(), u.getName(), u.getEmail(), u.getPassword(), u.getRoles(), u.getCalories_per_day(), u.isEnabled_or());
+    }
     public User(Integer id, String user_name, String email, String password, Role roleAdmin) {
         super(id,user_name);
     }
@@ -25,15 +31,16 @@ public class User extends AbstractNamedEntity {
     }
 
 
-    public User(Integer id, String name, String email, String password, Date regitred_time, Set<Role> roles, int calories_per_day,boolean enabled_or_not) {
+    public User(Integer id, String name, String email, String password, Set<Role> roles, int calories_per_day,boolean enabled_or_not) {
         super(id, name);
         this.email = email;
         this.password = password;
-        this.registred_time = regitred_time;
         this.roles = roles;
         this.calories_per_day = calories_per_day;
         this.enabled_or = enabled_or_not;
     }
+
+
 
     public String getEmail() {
         return email;
