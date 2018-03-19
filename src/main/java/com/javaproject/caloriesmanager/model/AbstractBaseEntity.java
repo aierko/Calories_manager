@@ -1,5 +1,7 @@
 package com.javaproject.caloriesmanager.model;
 
+import javax.naming.Name;
+
 public abstract class AbstractBaseEntity {
     public AbstractBaseEntity(Integer id) {
         this.id = id;
@@ -22,7 +24,7 @@ public abstract class AbstractBaseEntity {
 
     @Override
     public String toString() {
-        return String.format("Entity %s (%s)", getClass().getName(), id);
+        return String.format("Entity %s (%s)", getClass().getName(),id);
     }
 
     public AbstractBaseEntity() {
@@ -30,19 +32,18 @@ public abstract class AbstractBaseEntity {
 
     @Override
     public int hashCode() {
-        return id == null ? 0 : id;
+        return id==null? 0:id;
     }
 
     @Override
     public boolean equals(Object obj) {
-        if (this == obj) {
+        if (this == obj){
             return true;
-        }
-        if (obj == null || getClass() != obj.getClass()) {
+        }if (obj == null||getClass()!= obj.getClass()){
             return false;
         }
         AbstractBaseEntity that = (AbstractBaseEntity) obj;
-        return id != null && id.equals(that.id);
+        return id!=null&&id.equals(that.id);
     }
 
 }

@@ -7,17 +7,16 @@ import com.javaproject.caloriesmanager.util.MealsUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Repository;
+import org.springframework.util.CollectionUtils;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 import java.time.LocalDateTime;
 import java.time.Month;
-import java.util.Collection;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicInteger;
+import java.util.function.Predicate;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -69,19 +68,24 @@ public class InMemoryMealRepositoryImpl implements MealRepository {
         return mealMap == null ? null : mealMap.get(id);
     }
 
-    private Stream<Meal> getAllasStream(int user_id) {
-        Map<Integer, Meal> mealMap = repository.get(user_id);
-        return mealMap == null ? Stream.empty() : mealMap.values().stream().sorted(Comparator.comparing(Meal::getDateTime).reversed());
+    private List<Meal> getAllasStream(int userId, Predicate<Meal> filter) {
+        Map<Integer, Meal> meals = repository.get(userId);
+        return CollectionUtils.isEmpty(meals) ? Collections.emptyList() :
+                meals.values().stream()
+                        .filter(filter)
+                        .sorted(Comparator.comparing(Meal::getDateTime).reversed())
+                        .collect(Collectors.toList());
     }
 
-    @Override
+
+        @Override
     public List<Meal> getAll(int user_id) {
-        return getAllasStream(user_id).collect(Collectors.toList());
+        return getAllasStream(user_id, meal -> true);
     }
 
     @Override
-    public List<Meal> getBetween(LocalDateTime start_time, LocalDateTime end, int user_id) {
-        return getAllasStream(user_id).filter(meal -> DateTimeUtil.isBetween(meal.getDateTime(), start_time, end)).collect(Collectors.toList());
+    public List<Meal> getBetween(LocalDateTime startDateTime, LocalDateTime endDateTime, int userId)  {
+        return getAllasStream(userId, meal -> DateTimeUtil.isBetween(meal.getDateTime(), startDateTime, endDateTime));
     }
 
 }

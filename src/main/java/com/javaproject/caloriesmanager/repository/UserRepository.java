@@ -2,6 +2,7 @@ package com.javaproject.caloriesmanager.repository;
 
 import com.javaproject.caloriesmanager.model.User;
 
+import java.io.StringReader;
 import java.util.List;
 
 public interface  UserRepository {

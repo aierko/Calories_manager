@@ -9,11 +9,13 @@ import java.time.LocalTime;
  * Created by User on 23.01.2018.
  */
 public class Meal extends AbstractBaseEntity{
-    private final LocalDateTime dateTime; //время принятия пищи; время без тайм зоны
-    private final String description;    //  описание время приема пищи
-    private final int calories; // калории
+    private LocalDateTime dateTime; //время принятия пищи; время без тайм зоны
+    private String description;    //  описание время приема пищи
+    private int calories; // калории
     private Integer id;  // идентификатор еды
 
+    public Meal() {
+    }
 
     public Meal(LocalDateTime dateTime, String description, int calories) {
         this(null, dateTime, description, calories);
@@ -45,6 +47,19 @@ public class Meal extends AbstractBaseEntity{
     public int getCalories() {
         return calories;
     }
+
+    public void setDateTime(LocalDateTime dateTime) {
+        this.dateTime = dateTime;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public void setCalories(int calories) {
+        this.calories = calories;
+    }
+
 
     public LocalDate getDate() {
         return dateTime.toLocalDate();
