@@ -27,79 +27,78 @@ import static org.slf4j.LoggerFactory.getLogger;
 
 public class MealServlet extends HttpServlet {
     private ConfigurableApplicationContext springContext;
-    private MealRestController mealRestController;
+    private MealRestController mealController;
+
+    @Override
     public void init(ServletConfig config) throws ServletException {
         super.init(config);
-         springContext = new ClassPathXmlApplicationContext("spring/spring-app.xml", "spring/spring-db.xml");
-         mealRestController = springContext.getBean(MealRestController.class);
+        springContext = new ClassPathXmlApplicationContext("spring/spring-app.xml");
+        springContext = new ClassPathXmlApplicationContext("spring/spring-app.xml", "spring/spring-db.xml");
+        mealController = springContext.getBean(MealRestController.class);
     }
-    public void destroy(){
+
+    @Override
+    public void destroy() {
         springContext.close();
         super.destroy();
     }
 
+    @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.setCharacterEncoding("UTF-8"); //работаем по UTF-8
-        String id = request.getParameter("id"); //берем запросы по айди
+        request.setCharacterEncoding("UTF-8");
         String action = request.getParameter("action");
         if (action == null) {
             Meal meal = new Meal(
                     LocalDateTime.parse(request.getParameter("dateTime")),
                     request.getParameter("description"),
-                    Integer.valueOf(request.getParameter("calories")));
+                    Integer.parseInt(request.getParameter("calories")));
 
             if (request.getParameter("id").isEmpty()) {
-                mealRestController.create(meal);
-
+                mealController.create(meal);
             } else {
-                mealRestController.update(meal, getId(request));
+                mealController.update(meal, getId(request));
             }
-
-//        log.info(meal.isNew() ? "Create {}" : "Update {}", meal);
-//        repository.save(meal, AutorizedUser.id()); //делаем сейв
             response.sendRedirect("meals");
-        }
-        else if ("filter".equals(action)){
+
+        } else if ("filter".equals(action)) {
             LocalDate startDate = parseLocalDate(request.getParameter("startDate"));
             LocalDate endDate = parseLocalDate(request.getParameter("endDate"));
             LocalTime startTime = parseLocalTime(request.getParameter("startTime"));
             LocalTime endTime = parseLocalTime(request.getParameter("endTime"));
-            request.setAttribute("meals", mealRestController.getBetween(startDate, startTime, endDate, endTime));
+            request.setAttribute("meals", mealController.getBetween(startDate, startTime, endDate, endTime));
             request.getRequestDispatcher("/meals.jsp").forward(request, response);
-
         }
     }
 
+    @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String action = request.getParameter("action");
 
-        switch (action == null ? "all" : action) { //если экшена нету даем весь список
+        switch (action == null ? "all" : action) {
             case "delete":
-                int id = getId(request); //берем айдишник из запроса через метод
-                mealRestController.delete(id);
-               // repository.delete(id,AutorizedUser.id()); //удаляем из репозитория
-                response.sendRedirect("meals"); //и делаем редирект
+                int id = getId(request);
+                mealController.delete(id);
+                response.sendRedirect("meals");
                 break;
             case "create":
             case "update":
                 final Meal meal = "create".equals(action) ?
                         new Meal(LocalDateTime.now().truncatedTo(ChronoUnit.MINUTES), "", 1000) :
-                        mealRestController.get(getId(request));
+                        mealController.get(getId(request));
                 request.setAttribute("meal", meal);
-                request.getRequestDispatcher("/mealForm.jsp").forward(request, response); //отправляемся на mealForm где у нас будет форма для редактирования
+                request.getRequestDispatcher("/mealForm.jsp").forward(request, response);
                 break;
             case "all":
             default:
-                request.setAttribute("meals",
-                       mealRestController.getAll());
+                request.setAttribute("meals", mealController.getAll());
+
                 request.getRequestDispatcher("/meals.jsp").forward(request, response);
                 break;
         }
+    }
 
-        }
-        private int getId(HttpServletRequest request) {
-            String paramId = Objects.requireNonNull(request.getParameter("id"));
-            return Integer.valueOf(paramId);
-        }
-
+    private int getId(HttpServletRequest request) {
+        String paramId = Objects.requireNonNull(request.getParameter("id"));
+        return Integer.parseInt(paramId);
+    }
     }

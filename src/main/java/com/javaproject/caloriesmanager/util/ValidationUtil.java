@@ -38,4 +38,6 @@ public class ValidationUtil{
         }
     }
 
+    private ValidationUtil() {
+    }
 }

@@ -31,12 +31,6 @@ public class InMemoryMealRepositoryImpl implements MealRepository {
 
     private AtomicInteger counter = new AtomicInteger(0);
 
-    {
-        MealsUtil.MEALS.forEach(meal -> save(meal, USER_ID));
-        save(new Meal(LocalDateTime.of(2018, Month.FEBRUARY, 20, 14, 0), "admin_lunch", 500), ADMIN_ID);
-        save(new Meal(LocalDateTime.of(2018, Month.FEBRUARY, 20, 20, 0), "admin_dinner", 450), ADMIN_ID);
-
-    }
 
     @PostConstruct
     public void postConstructor() {

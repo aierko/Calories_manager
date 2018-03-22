@@ -32,5 +32,7 @@ public class DateTimeUtil {
         return StringUtils.isEmpty(d)?null : LocalTime.parse(d);
     }
 
+    private DateTimeUtil() {
+    }
 }
 
